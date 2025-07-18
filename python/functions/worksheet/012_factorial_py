@@ -1,0 +1,9 @@
+def factorial(a):
+     temp=a
+     c=1
+     while(temp>0):
+          c=c*temp
+          temp-=1
+     return c
+a=int(input("enter a number : "))
+print(f"factorial of {a} is : {factorial(a)}")

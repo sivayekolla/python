@@ -1,0 +1,5 @@
+toys=set(input("enter toys:").split())
+name=input("enter which toy to remove:")
+print(toys)
+toys.remove(name)
+print(toys)

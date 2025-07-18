@@ -1,0 +1,5 @@
+a=tuple(map(int,input("enter a tuple : ").split()))
+b=int(input("enter a value :"))
+c=list(a)
+d=c.count(b)
+print(d)

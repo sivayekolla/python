@@ -1,0 +1,6 @@
+a=list(map(int,input("enter a list : ").split()))
+b=tuple(map(int,input("enter a tuple : ").split()))
+a=tuple(a)
+b=list(b)
+print("tuple :",a)
+print("list :",b)

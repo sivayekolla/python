@@ -1,0 +1,5 @@
+a=list(map(int,input("enter a list : ").split()))
+b=int(input("enter a value to add :"))
+c=int(input("enter position in range : "))
+a.insert(b,c)
+print(a)

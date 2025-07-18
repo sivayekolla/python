@@ -1,0 +1,6 @@
+a= int(input("enter a value : "))
+b= str(input('enter a string : '))
+a=str(a)
+b=int(b)
+print(a,b)
+print(type(a),type(b))
