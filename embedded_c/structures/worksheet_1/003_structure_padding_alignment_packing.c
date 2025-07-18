@@ -1,0 +1,18 @@
+#include<stdio.h>
+#pragma pack(1)
+struct stu
+{
+     char arr;
+     int arr1;
+     char arr2;
+     float arr3;
+};
+int main()
+{
+     int a,b;
+     a=sizeof(struct stu);
+// size before packing=16
+//after packing =10
+     printf("%d",a);
+
+}
